@@ -1,4 +1,12 @@
-# React + TypeScript + Vite
+# OctoFit Tracker frontend
+
+The React 19 presentation tier uses Vite, React Router, and Bootstrap. It calls the backend at `http://localhost:8000` by default.
+
+For GitHub Codespaces, define `VITE_CODESPACE_NAME` in `.env.local`. Vite exposes it through `import.meta.env`, and the frontend will call `https://<name>-8000.app.github.dev/api/...`.
+
+```env
+VITE_CODESPACE_NAME=your-codespace-name
+```
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
