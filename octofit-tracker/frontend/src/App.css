@@ -56,6 +56,7 @@ h1, h2 { color: var(--ink); font-family: 'Space Grotesk', sans-serif; }
 .leaderboard-name { display: grid; gap: 4px; flex: 1; }
 .leaderboard-name span { color: var(--muted); font-size: 12px; }
 .state-panel { display: flex; gap: 12px; padding: 26px; border: 1px dashed var(--line); color: var(--muted); }
+.state-panel-success { margin-bottom: 14px; border-color: #a9c878; background: rgba(217, 238, 138, .22); color: var(--green); }
 .state-panel-error { flex-direction: column; border-color: #e4a487; background: #fff8f2; color: #a34d2e; }
 .app-footer { display: flex; justify-content: space-between; padding: 24px 0; border-top: 1px solid var(--line); color: var(--muted); font-size: 11px; }
 @media (max-width: 820px) { .app-header { flex-wrap: wrap; gap: 15px; padding: 16px 0; } .main-nav { order: 3; width: 100%; justify-content: space-between; gap: 8px; overflow-x: auto; } .api-status { margin-left: auto; } .home-section { min-height: 0; flex-direction: column; align-items: start; padding: 70px 0; } .home-statline { width: 100%; grid-template-columns: repeat(3, 1fr); } .home-statline div { display: block; } .home-statline strong, .home-statline span { display: block; } .home-statline span { margin-top: 5px; } }

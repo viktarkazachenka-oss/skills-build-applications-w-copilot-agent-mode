@@ -2,7 +2,7 @@
 
 The React 19 presentation tier uses Vite, React Router, and Bootstrap. It calls the backend at `http://localhost:8000` by default.
 
-For GitHub Codespaces, define `VITE_CODESPACE_NAME` in `.env.local`. Vite exposes it through `import.meta.env`, and the frontend will call `https://<name>-8000.app.github.dev/api/...`.
+For GitHub Codespaces, define `VITE_CODESPACE_NAME` in `.env.local`. Vite exposes it through `import.meta.env`, and the frontend will call `https://<name>-8000.app.github.dev/api/...`. When the variable is missing, a forwarded Codespaces frontend hostname is detected automatically; local development falls back to `http://localhost:8000`.
 
 ```env
 VITE_CODESPACE_NAME=your-codespace-name
